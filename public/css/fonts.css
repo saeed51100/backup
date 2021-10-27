@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arizonia Regular'), local('Arizonia-Regular'), url(https://fonts.gstatic.com/s/arizonia/v10/neIIzCemt4A5qa7mv5WBFqw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+}
+
+@font-face {
+    font-family: 'BBadr';
+    src: url('./fonts/BBadr.eot');
+    src: url('./fonts/BBadr.eot') format('woff'),
+    url('./fonts/BBadr.woff') format('embedded-opentype'),
+    url('./fonts/BBadr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BBaran';
+    src: url('./fonts/BBaran.eot');
+    src: url('./fonts/BBaran.eot') format('woff'),
+    url('./fonts/BBaran.woff') format('embedded-opentype'),
+    url('./fonts/BBaran.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BBardiya';
+    src: url('./fonts/BBardiya.eot');
+    src: url('./fonts/BBardiya.eot') format('woff'),
+    url('./fonts/BBardiya.woff') format('embedded-opentype'),
+    url('./fonts/BBardiya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BCompset';
+    src: url('./fonts/BCompset.eot');
+    src: url('./fonts/BCompset.eot') format('woff'),
+    url('./fonts/BCompset.woff') format('embedded-opentype'),
+    url('./fonts/BCompset.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BDavat';
+    src: url('./fonts/BDavat.eot');
+    src: url('./fonts/BDavat.eot') format('woff'),
+    url('./fonts/BDavat.woff') format('embedded-opentype'),
+    url('./fonts/BDavat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BElham';
+    src: url('./fonts/BElham.eot');
+    src: url('./fonts/BElham.eot') format('woff'),
+    url('./fonts/BElham.woff') format('embedded-opentype'),
+    url('./fonts/BElham.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BEsfehanBold';
+    src: url('./fonts/BEsfehanBold.eot');
+    src: url('./fonts/BEsfehanBold.eot') format('woff'),
+    url('./fonts/BEsfehanBold.woff') format('embedded-opentype'),
+    url('./fonts/BEsfehanBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BFantezy';
+    src: url('./fonts/BFantezy.eot');
+    src: url('./fonts/BFantezy.eot') format('woff'),
+    url('./fonts/BFantezy.woff') format('embedded-opentype'),
+    url('./fonts/BFantezy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BFarnaz';
+    src: url('./fonts/BFarnaz.eot');
+    src: url('./fonts/BFarnaz.eot') format('woff'),
+    url('./fonts/BFarnaz.woff') format('embedded-opentype'),
+    url('./fonts/BFarnaz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BFerdosi';
+    src: url('./fonts/BFerdosi.eot');
+    src: url('./fonts/BFerdosi.eot') format('woff'),
+    url('./fonts/BFerdosi.woff') format('embedded-opentype'),
+    url('./fonts/BFerdosi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BHamid';
+    src: url('./fonts/BHamid.eot');
+    src: url('./fonts/BHamid.eot') format('woff'),
+    url('./fonts/BHamid.woff') format('embedded-opentype'),
+    url('./fonts/BHamid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BHelal';
+    src: url('./fonts/BHelal.eot');
+    src: url('./fonts/BHelal.eot') format('woff'),
+    url('./fonts/BHelal.woff') format('embedded-opentype'),
+    url('./fonts/BHelal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BHoma';
+    src: url('./fonts/BHoma.eot');
+    src: url('./fonts/BHoma.eot') format('woff'),
+    url('./fonts/BHoma.woff') format('embedded-opentype'),
+    url('./fonts/BHoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BJadidBold';
+    src: url('./fonts/BJadidBold.eot');
+    src: url('./fonts/BJadidBold.eot') format('woff'),
+    url('./fonts/BJadidBold.woff') format('embedded-opentype'),
+    url('./fonts/BJadidBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BJalal';
+    src: url('./fonts/BJalal.eot');
+    src: url('./fonts/BJalal.eot') format('woff'),
+    url('./fonts/BJalal.woff') format('embedded-opentype'),
+    url('./fonts/BJalal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BKoodakBold';
+    src: url('./fonts/BKoodakBold.eot');
+    src: url('./fonts/BKoodakBold.eot') format('woff'),
+    url('./fonts/BKoodakBold.woff') format('embedded-opentype'),
+    url('./fonts/BKoodakBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BKourosh';
+    src: url('./fonts/BKourosh.eot');
+    src: url('./fonts/BKourosh.eot') format('woff'),
+    url('./fonts/BKourosh.woff') format('embedded-opentype'),
+    url('./fonts/BKourosh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BLotus';
+    src: url('./fonts/BLotus.eot');
+    src: url('./fonts/BLotus.eot') format('woff'),
+    url('./fonts/BLotus.woff') format('embedded-opentype'),
+    url('./fonts/BLotus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMahsa';
+    src: url('./fonts/BMahsa.eot');
+    src: url('./fonts/BMahsa.eot') format('woff'),
+    url('./fonts/BMahsa.woff') format('embedded-opentype'),
+    url('./fonts/BMahsa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMehrBold';
+    src: url('./fonts/BMehrBold.eot');
+    src: url('./fonts/BMehrBold.eot') format('woff'),
+    url('./fonts/BMehrBold.woff') format('embedded-opentype'),
+    url('./fonts/BMehrBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMitra';
+    src: url('./fonts/BMitra.eot');
+    src: url('./fonts/BMitra.eot') format('woff'),
+    url('./fonts/BMitra.woff') format('embedded-opentype'),
+    url('./fonts/BMitra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMorvarid';
+    src: url('./fonts/BMorvarid.eot');
+    src: url('./fonts/BMorvarid.eot') format('woff'),
+    url('./fonts/BMorvarid.woff') format('embedded-opentype'),
+    url('./fonts/BMorvarid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BNarm';
+    src: url('./fonts/BNarm.eot');
+    src: url('./fonts/BNarm.eot') format('woff'),
+    url('./fonts/BNarm.woff') format('embedded-opentype'),
+    url('./fonts/BNarm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BNasimBold';
+    src: url('./fonts/BNasimBold.eot');
+    src: url('./fonts/BNasimBold.eot') format('woff'),
+    url('./fonts/BNasimBold.woff') format('embedded-opentype'),
+    url('./fonts/BNasimBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BNazanin';
+    src: url('./fonts/BNazanin.eot');
+    src: url('./fonts/BNazanin.eot') format('woff'),
+    url('./fonts/BNazanin.woff') format('embedded-opentype'),
+    url('./fonts/BNazanin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BRoya';
+    src: url('./fonts/BRoya.eot');
+    src: url('./fonts/BRoya.eot') format('woff'),
+    url('./fonts/BRoya.woff') format('embedded-opentype'),
+    url('./fonts/BRoya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BSetarehBold';
+    src: url('./fonts/BSetarehBold.eot');
+    src: url('./fonts/BSetarehBold.eot') format('woff'),
+    url('./fonts/BSetarehBold.woff') format('embedded-opentype'),
+    url('./fonts/BSetarehBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BShiraz';
+    src: url('./fonts/BShiraz.eot');
+    src: url('./fonts/BShiraz.eot') format('woff'),
+    url('./fonts/BShiraz.woff') format('embedded-opentype'),
+    url('./fonts/BShiraz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BSinaBold';
+    src: url('./fonts/BSinaBold.eot');
+    src: url('./fonts/BSinaBold.eot') format('woff'),
+    url('./fonts/BSinaBold.woff') format('embedded-opentype'),
+    url('./fonts/BSinaBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTabassom';
+    src: url('./fonts/BTabassom.eot');
+    src: url('./fonts/BTabassom.eot') format('woff'),
+    url('./fonts/BTabassom.woff') format('embedded-opentype'),
+    url('./fonts/BTabassom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTehran';
+    src: url('./fonts/BTehran.eot');
+    src: url('./fonts/BTehran.eot') format('woff'),
+    url('./fonts/BTehran.woff') format('embedded-opentype'),
+    url('./fonts/BTehran.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTitrBold';
+    src: url('./fonts/BTitrBold.eot');
+    src: url('./fonts/BTitrBold.eot') format('woff'),
+    url('./fonts/BTitrBold.woff') format('embedded-opentype'),
+    url('./fonts/BTitrBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTitrTGEBold';
+    src: url('./fonts/BTitrTGEBold.eot');
+    src: url('./fonts/BTitrTGEBold.eot') format('woff'),
+    url('./fonts/BTitrTGEBold.woff') format('embedded-opentype'),
+    url('./fonts/BTitrTGEBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BTraffic';
+    src: url('./fonts/BTraffic.eot');
+    src: url('./fonts/BTraffic.eot') format('woff'),
+    url('./fonts/BTraffic.woff') format('embedded-opentype'),
+    url('./fonts/BTraffic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BVahidBold';
+    src: url('./fonts/BVahidBold.eot');
+    src: url('./fonts/BVahidBold.eot') format('woff'),
+    url('./fonts/BVahidBold.woff') format('embedded-opentype'),
+    url('./fonts/BVahidBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYagut';
+    src: url('./fonts/BYagut.eot');
+    src: url('./fonts/BYagut.eot') format('woff'),
+    url('./fonts/BYagut.woff') format('embedded-opentype'),
+    url('./fonts/BYagut.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYas';
+    src: url('./fonts/BYas.eot');
+    src: url('./fonts/BYas.eot') format('woff'),
+    url('./fonts/BYas.woff') format('embedded-opentype'),
+    url('./fonts/BYas.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('./fonts/BYekan.eot');
+    src: url('./fonts/BYekan.eot') format('woff'),
+    url('./fonts/BYekan.woff') format('embedded-opentype'),
+    url('./fonts/BYekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BZar';
+    src: url('./fonts/BZar.eot');
+    src: url('./fonts/BZar.eot') format('woff'),
+    url('./fonts/BZar.woff') format('embedded-opentype'),
+    url('./fonts/BZar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BZiba';
+    src: url('./fonts/BZiba.eot');
+    src: url('./fonts/BZiba.eot') format('woff'),
+    url('./fonts/BZiba.woff') format('embedded-opentype'),
+    url('./fonts/BZiba.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
